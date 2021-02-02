@@ -1,45 +1,157 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Heaths Kitchen 
 
-Welcome USER_NAME,
+[Link to deployed website on GitHub Pages]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Image of site to go here
 
-## Gitpod Reminders
+## Site Summary 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Heaths Kitchen is a small cafe situated in Stockton Heath, Warrington. The business is adjusting to
+the new realities for the hospitality industry in a world changed by the COVID-19 pandemic. As part of
+a long term plan to handle whatever the future brings, the cafe is rebranding itself from being named 
+Heaths 26 to the more stylish sounding Heaths Kitchen. The company has used the same GUI generated site 
+since it was formed nearly a decade ago. 
 
-`python3 -m http.server`
+As part of the long term plan, we aim to build up a more attractive presence for the business online that 
+will build on the familiarity the company has with its regular customers and try to reach out to new client
+bases by initially expanding it's online services in the following areas: Online Table Reservations, Ordering Food Online to
+collect, And being able to order cakes, buffets and Finger Foods for special events.
 
-A blue button should appear to click: *Make Public*,
+Insert more detailed analysis here.
 
-Another blue button should appear to click: *Open Browser*.
+## Development Information 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This is my second big development project since starting the Code Institute course. Due to the connections and
+experience I already have in the Hospitality Industry- I have decided to focus on working on projects within that
+sector. 
 
-A blue button should appear to click: *Make Public*,
+# User Experience (UX)
 
-Another blue button should appear to click: *Open Browser*.
+- First Time User Goals:
+  - a. As a first time user, I want to know what sort of food is available at Heaths Kitchen.
+  - b. As a first time user, I want to be able to intuitively use the site.
+  - c. As a first time user, I want to easily find contact information and opening times.
+  - d. As a first time user, I want to see be able to access Social Media links to look for photos and deals.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a Returning User:
+  - a. As a returning user, I want to know whether I can order online.
+  - b. As a returning user, I want to know what options are available for takeaway.
+  - c. As a returning user, I want to know that the opening times have not changed.
 
-## Updates Since The Instructional Video
+- As a Frrequent User:
+  - a. As a frequent user, I want to know if there are any loyalty schemes on offer to customers.
+  - b. As a frequent user, I want to know where I can find the latest special offers and in-house specials.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Colour Scheme:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Typography: 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Imagery: 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Wireframes 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Mobile Wireframe]()
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Desktop Wireframe]()
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Features 
 
---------
+- Responsive across all devices.
+- Easy Table Reservations and Order Now.
+- Integrated Social Media.
+- Easy site navigation.
 
-Happy coding!
+# Technologies Used 
+## Languages Used:
+- [HTML]()
+- [CSS]()
+- [JS]()
+
+## Frameworks, Libraries and Programs Used:
+1. [Bootstrap 4.0.0:](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+    - Used throughout the website for responsiveness and functionality.
+2. [W3.CSS:](https://www.w3schools.com/w3css/default.asp)
+    - Used for added styling and functionality.
+3. [Google Fonts:](https://fonts.google.com/)
+    - Used for the fonts of the website. 
+4. [Git:](https://git-scm.com/) 
+    - Used for maintaining version control for possible later edits, changes, updates or fixes. 
+    The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
+5. [Gitpod:](https://gitpod.io/)
+    - Used for maintaining version control in conjunction with Git for possible later edits, changes, updates or fixes. 
+    The Gitpod terminal was used to commit to Git, and then Git pushed to GitHub.
+6. [Github:](https://github.com/)
+    - Used to store the project as a repository after being pushed by Git.
+7. [Font Awesome](https://fontawesome.com/)
+    - Used across all sections in the site to catch the users attention and fit with UX conventions of being able to 
+    easily identify the meaning of content areas and links from the icons displayed.
+8. [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
+    - Used for the designing of the site by utilising the built in Google Chrome Dev Tools and using the browser 
+    to access the Gitpod IDE.
+9. [Am I Responsive?](http://ami.responsivedesign.is/)
+    - Used for testing the responsiveness of the site throughout the design process.
+10. [Responsinator](http://www.responsinator.com/)
+    - Also used for testing the responsiveness of the site throughout the design process.
+11. [Minify Code](http://minifycode.com/)
+    - Used to minify and beautify code to make it easier to for the browser to process and developers to read.
+
+# Testing 
+
+## Validation  
+
+The W3C Markup and CSS Validator Services were used to validate every page of the 
+project to ensure there were no syntax errors in the project:
+
+- [The W3C Markup Validator - Results]()
+- [The W3C CSS Validator - Results]()
+
+## Testing User Stories from the UX Section
+
+- **First Time User Goals:**
+
+- **Returning User Goals:**
+
+- **Frequent User Goals:**
+
+## UX Survey 
+
+# Release Planning  
+## Initial Release 
+This is the current version of the website that will act as an MVP.
+
+## Later Releases 
+
+# Deployment 
+
+## GitHub Pages 
+
+## Forking the repository
+
+## Making a Local clone 
+
+# Credits 
+
+## Code
+
+## Content
+All of the content used in this website is the intellectual property of Heaths Kitchen and should not be reused 
+without prior consent. This website was developed exclusively for Heaths Kitchen by Jake Ashley Lashbrook at the
+request of Heaths Kitchen.
+
+## Media 
+All Images and Media used on the website are the property of Heaths Kitchen and should not be reused without
+prior consent. 
+## Acknowledgements 
+- To my partner, for putting up with me in the hours, days and weeks of developing this site.
+- To Heaths Kitchen, for asking me to develop this site and entrusting me with their online business needs.
+- To Antonio Rodriguez , my Code Institute Mentor for supporting me through my learning within the Development 
+industry and Code Institute platform.
+- The Code Institute Team, for teaching me skills that enabled me to push my knowledge capacity further day after 
+day and introducing me to working with Bootstrap as a framework.
+
+
+  
+
+
