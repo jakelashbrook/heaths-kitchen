@@ -1,0 +1,177 @@
+/* Google Fonts Import Link
+      - Architects Daughter for headings
+      - Roboto Mono for the rest           */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Mono&display=swap');
+
+/*  Global Site Style Rules      */
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  font-family: "Roboto Mono", sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff9e1b;
+}
+
+a.orange-anchor {
+  color: #ff9e1b;
+}
+
+.border-btm {
+  border-bottom: 1px solid #fafafa;
+}
+
+.navy-border {
+  border: 0.5px solid #00313C;
+}
+
+.wu-icon {
+  font-size: 66px;
+}
+
+/* COLOUR SCHEME      */
+.navy-blue {
+  background-color: #00313C;
+}
+
+.navy-blue-text {
+  color: #00313C;
+  font-weight: 600;
+}
+
+.navy-blue-bg {
+  background-color: #fafafa;
+  opacity: 0.9;
+}
+
+.text-white {
+  color: #fafafa;
+}
+
+.white {
+  background-color: #fafafa;
+}
+
+.orange {
+  background-color: #ff9e1b;
+}
+
+.orange-text {
+  color: #ff9e1b;
+}
+
+/*  w3 reset styles         */
+.w3-button {
+  color: #fafafa;
+}
+.w3-button:hover {
+    color: #00313C!important;
+    background-color: #fafafa!important;
+    font-weight: 700;
+    border: 1px solid #00313C;
+}
+
+.w3-border {
+    border: 1px solid #00313C!important;
+}
+
+/* FIXED NAVIGATION BAR - Resets Bootstrap Navbar Default styles    */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+/* Resets the brand color */
+.navbar-dark .navbar-brand {
+    color: #fafafa;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-brand span {
+    color: #ff9e1b;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Resets the toggler button colour to match the brand */
+.navbar-dark .navbar-toggler {
+    color: #fafafa;
+    border-color: #fafafa;
+}  
+
+/* Resets default active link colour  */
+.navbar-dark .navbar-nav .active .nav-link {
+  color: #ff9e1b;
+}
+
+/* Resets the colour of Bootstrap nav-links */
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
+}
+
+/* Sets colour of links when hovered over   */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff9e1b;
+}
+
+/* The container used to display the header Image and logo   */
+.w3-display-container {
+  z-index: 1;
+}
+
+/*                      OPENING TIMES                  */
+.open-times {
+  background-color: #00313C;
+  color: #fafafa;
+}
+
+/*                    WHY US SECTION                   */
+.wu-col {
+  display: none;
+}
+
+
+/*                     THE FOOD                       */
+.the-food {
+  background-color: #00313C;
+  color: #fafafa; 
+}
+
+/*                   RESERVE A TABLE                    */
+/* sets the message style for after the reservation form is submitted */
+
+#send-msg {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00313C;
+  padding: 5px;
+  font-family: "Architects Daughter", sans-serif;
+}
+
+/*                       FIND US               */
+.find-us {
+  color: #00313C;
+} 
+ /* Sets the height of the Map Div */
+#map {
+  height: 100%;
+}
+
+/*               THOUGHTS                  */
+                
+
+/*                          FOOTER         */
+footer {
+  width: 100%;
+}
