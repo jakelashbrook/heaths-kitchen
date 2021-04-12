@@ -14,8 +14,8 @@
 <!-- Font Awesome Kit Link -->
 <script src="https://kit.fontawesome.com/d7aebf5372.js" crossorigin="anonymous" defer></script>
 <!-- EMAIL JS LINK -->
-<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js'></script>
-<script type='text/javascript'>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script>
    (function(){
       emailjs.init('user_3tcihhg66xkbfPiyyv6nu');
    })();
@@ -155,7 +155,7 @@
       </div>
     </div>
   </div>
-</div>
+
 </section>
 <!-- The Food Container -->
 <section>
@@ -176,7 +176,7 @@
 
   </div>
   </div>
-<section>   
+</section>   
 
 <!-- Reserve A Table Container -->
 <section>
@@ -186,7 +186,7 @@
     <p class="navy-blue-bg">To make a table reservation, just fill in the form below and make your request. Please note that we 
       only take reservations during our opening hours. Feel free to <a href="mailto:heaths26@hotmail.co.uk" class="orange-anchor">email us</a> if you wish to enquire 
       about renting the premises outside of our usual business hours.</p>
-    </p>
+
     <!-- Invoking the sendMail function for THIS form. Return false listed to prevent the whole page
     reloading after submitting form -->
     <form onsubmit="sendMail(this);return false" id="reservation-form">
@@ -259,7 +259,6 @@
     WA4 6NL </address>
     <p class="w3-hide-medium w3-hide-large">If you're on your mobile phone and would like some assistance finding us, you can 
       click<a href="geo:53.36969578150902, -2.5815707678278224" class="orange-anchor" target="_blank"> here</a> to redirect to the Google Maps app and search for Heaths 26.</p>
-    </p>
     <button class="w3-center w3-tag orange navy-blue-text mb-3" onclick="hideMapInfo();">CLOSE</button>
   </div>
 </div>
@@ -267,7 +266,7 @@
 
     
 <!-- End page content -->
-</div>
+
 
 <!-- Footer -->
 <footer class="navy-blue w3-padding-32 w3-panel m-0">
