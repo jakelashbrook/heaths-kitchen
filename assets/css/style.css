@@ -90,6 +90,7 @@ a.orange-anchor {
   top: 0;
   width: 100%;
   z-index: 99;
+  opacity: 0.8;
 }
 /* Resets the brand color */
 .navbar-dark .navbar-brand {
@@ -133,6 +134,7 @@ a.orange-anchor {
 /*                      OPENING TIMES                  */
 .open-times {
   background-color: #00313C;
+  opacity: 0.75;
   color: #fafafa;
 }
 
@@ -145,6 +147,7 @@ a.orange-anchor {
 /*                     THE FOOD                       */
 .the-food {
   background-color: #00313C;
+  opacity: 0.75;
   color: #fafafa; 
 }
 
@@ -174,4 +177,5 @@ a.orange-anchor {
 /*                          FOOTER         */
 footer {
   width: 100%;
+  opacity: 0.75;
 }
