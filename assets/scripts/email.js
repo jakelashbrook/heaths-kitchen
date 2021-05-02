@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 // Function to make the form button interactive for users whilst sending and then display a sent message.
 function sending() {
-  let reserveForm = document.getElementById('#reservation-form');
-  let btnSend = document.getElementById('#request-table-btn');
-  let sendMessage = document.getElementById('#send-msg');
+  let reserveForm = document.querySelector('#reservation-form');
+  let btnSend = document.querySelector('#request-table-btn');
+  let sendMessage = document.querySelector('#send-msg');
 // Adds Event Listener to button that changes text when clicked on to say Sending.
     btnSend.addEventListener('click', () =>{
     btnSend.innerText = 'Sending..';
