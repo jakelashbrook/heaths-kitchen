@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- CSS Link -->
 <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<!-- Site Favicon -->
+<link rel="icon" type="image/jpg" href="assets/images/hk-logo-dark.jpg"/>
 <!-- jQuery Link -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Font Awesome Kit Link -->
@@ -190,18 +192,36 @@ emailjs.init("user_3tcihhg66xkbfPiyyv6nu");
     <p><span class="orange-text">PLEASE NOTE THIS FORM IS FOR ADVANCED BOOKINGS ONLY (24hrs +).</span> We will review bookings once a day in the morning, and if there are any issues, we will contact you 
     (please ensure you have entered correct contact information). If you do not hear from us, your booking is confirmed.</p>
     </div>
-    <!-- Invoking the sendMail function for THIS form. Return false listed to prevent the whole page
-    reloading after submitting  -->
-    <form onsubmit="sendMail(this);return false" id="reservation-form">
-      <p><input class="w3-input w3-padding-12 w3-border" type="text" placeholder="Name" required name="name"></p>
-      <p><input class="w3-input w3-padding-12 w3-border" type="email" placeholder="Email address" required name="emailaddress"></p>
-      <p><input class="w3-input w3-padding-12 w3-border" type="number" placeholder="Phone number" required name="phone"></p>
-      <p><input class="w3-input w3-padding-12 w3-border" type="number" placeholder="How many guests?" required name="guestsbooked"></p>
-      <p><input class="w3-input w3-padding-12 w3-border" type="datetime-local" placeholder="Date and time" required name="datetime" value="2021-12-31T10:00"></p>
-      <p><textarea class="w3-input w3-padding-12 w3-border" type="textarea" placeholder="Extra details or requirements..." required name="messages"></textarea></p>
-      <p><button id="request-table-btn" onclick="sending();" class="w3-button navy-blue" type="submit" name="submit">REQUEST TABLE</button></p>
+    <div class="navy-blue text-white">
+    <form id="reservation-form">
+        <div class="field">
+            <label for="from_name">Full Name:</label>
+            <input type="text" name="from_name" id="from_name" class="w3-input" required>
+        </div>
+        <div class="field">
+            <label for="from_email">Email Address:</label>
+            <input type="text" name="from_email" id="from_email" class="w3-input" required>
+        </div>
+        <div class="field">
+            <label for="phone_number">Phone number:</label>
+            <input type="text" name="phone_number" id="phone_number" class="w3-input" required>
+        </div>
+        <div class="field">
+            <label for="guests">Number of Guests</label>
+            <input type="text" name="guests" id="guests" class="w3-input" required>
+        </div>
+        <div class="field">
+            <label for="date_time">Date of reservation:</label>
+            <input type="text" name="date_time" id="date_time" class="w3-input" required>
+        </div>
+        <div class="field">
+            <label for="message">Extra Details:</label>
+            <textarea type="text" name="message" class="w3-input" id="message"></textarea>
+        </div>
+
+        <input type="submit" id="request-table-btn" class="w3-button orange" value="Send Email" >
     </form>
-      <h6 id="send-msg"></h6>
+    </div>
     </div>
     </div>
     
