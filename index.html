@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Bootstrap v4.0 CSS Link -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <!-- W3.css Stylesheet -->
 <link rel="stylesheet" href="assets/css/w3.min.css">
 <!-- CSS Link -->
@@ -15,6 +15,31 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Font Awesome Kit Link -->
 <script src="https://kit.fontawesome.com/d7aebf5372.js" crossorigin="anonymous" defer></script>
+<!-- Images.js (preloads images in cache) -->
+<script>
+    function preloadImages(array) {
+    if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+    var list = preloadImages.list;
+    for (var i = 0; i < array.length; i++) {
+        var img = new Image();
+        img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+                // remove image from the array once it's loaded
+                // for memory consumption reasons
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = array[i];
+    }
+}
+
+preloadImages(["assets/images/hk-dining-area.jpeg", "assets/images/hk-logo-dark.jpg", "assets/images/food-menu1.jpg",
+"assets/images/food-menu2.jpg", "assets/images/hk-pattern.jpg"]);
+</script>
 <!-- EMAIL JS LINK -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script type="text/javascript">
