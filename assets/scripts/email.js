@@ -12,7 +12,7 @@ document.getElementById('reservation-form')
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      alert('Sent!');
+      alert('Thank you for your Table Reservation Request, you will recieve a confirmation email from us within a few minutes.!');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
