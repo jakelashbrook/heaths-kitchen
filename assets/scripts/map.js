@@ -1,4 +1,4 @@
-
+/* No longer linked to API due to Bev/ Andy not paying for it
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 53.36969578150902, lng: -2.5815707678278224 },
@@ -19,6 +19,8 @@ function initMap() {
   });
 
 }
+
+*/
 
 // Show the Information for finding the restaurant when map is clicked on
 function showMapInfo() {
